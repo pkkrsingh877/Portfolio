@@ -1,7 +1,7 @@
 const Header = () => {
     return (
         <nav className="flex flex-row justify-between p-4 text-medium">
-            <img src="/images/logos/dark.png" alt="dark Logo" className="w-[5rem]" />
+            <img src="/images/logos/dark.png" alt="dark Logo" className="w-[5rem] hover:animate-ping" />
             <div className="flex flex-row justify-around items-center gap-4 pr-4">
                 <a href="/" className="hover:text-accent">Home</a>
                 <a href="#projects" className="hover:text-accent">Projects</a>
