@@ -10,9 +10,10 @@ export default {
         light: '#EEEEEE', // from your CSS variable
       },
       fontSize: {
-        small: '0.875rem',  // from your CSS variable
-        medium: '1rem',     // from your CSS variable
-        large: '1.25rem',   // from your CSS variable
+        small: '1rem',  // from your CSS variable
+        medium: '1.5rem',     // from your CSS variable
+        large: '2rem',   // from your CSS variable
+        extraLarge: '4rem'
       },
       spacing: {
         xs: '0.25rem', // from your CSS variable

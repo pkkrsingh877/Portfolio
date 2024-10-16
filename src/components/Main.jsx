@@ -1,6 +1,16 @@
+import Hero from "./sections/Hero";
+import Projects from "./sections/Projects";
+import Skills from "./sections/Skills";
+import ContactMe from "./sections/ContactMe";
+
 const Main = () => {
     return (
-        <div className="text-green-500">Main</div>
+        <main>
+            <Hero />
+            <Projects />
+            <Skills />
+            <ContactMe />
+        </main>
     );
 }
 
