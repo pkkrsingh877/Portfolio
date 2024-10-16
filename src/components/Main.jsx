@@ -1,15 +1,20 @@
 import Hero from "./sections/Hero";
 import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
-import ContactMe from "./sections/ContactMe";
+import Contact from "./sections/Contact";
 
 const Main = () => {
     return (
         <main>
+            <hr className="w-full border-1 border-solid border-secondary" />
             <Hero />
+            <hr className="w-full border-1 border-solid border-secondary" />
             <Projects />
+            <hr className="w-full border-1 border-solid border-secondary" />
             <Skills />
-            <ContactMe />
+            <hr className="w-full border-1 border-solid border-secondary" />
+            <Contact />
+            <hr className="w-full border-1 border-solid border-secondary" />
         </main>
     );
 }
