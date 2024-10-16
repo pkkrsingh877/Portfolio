@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{html,js}", "./public", "./index.html"],
+  content: ["./src/**/*.{html,js,jsx}", "./public", "./index.html"],
   theme: {
     extend: {
       colors: {
@@ -24,8 +24,10 @@ export default {
         DEFAULT: '0.5rem', // from your CSS variable
       },
       fontFamily: {
-        display: ['Inter', 'system-ui', 'sans-serif'],
-        body: ['Inter', 'system-ui', 'sans-serif'],
+        lato: ['Lato', 'sans-serif'],   // Add Lato
+        roboto: ['Roboto', 'sans-serif'], // Add Roboto
+        openSans: ['Open Sans', 'sans-serif'], // Add Sans Serif
+        poppins: ['Poppins', 'sans-serif'],
       },
     },
   },

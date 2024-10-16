@@ -4,11 +4,11 @@ import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <>
+    <div className='flex '>
       <Header />
       <Main />
       <Footer />
-    </>
+    </div>
   );
 }
 
