@@ -3,7 +3,7 @@ import { useState } from 'react';
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <nav className="flex flex-col md:flex-row justify-between p-4 text-medium">
+        <nav className="flex flex-col md:flex-row justify-between p-4 text-medium" id="home">
 
             <div className='flex justify-between items-center'>
                 {/* Logo */}
@@ -19,7 +19,7 @@ const Header = () => {
 
             {/* Links for Desktop */}
             <div className="hidden md:flex flex-row justify-around items-center gap-4 pr-4">
-                <a href="/" className="hover:text-accent">Home</a>
+                <a href="#home" className="hover:text-accent">Home</a>
                 <a href="#projects" className="hover:text-accent">Projects</a>
                 <a href="#skills" className="hover:text-accent">Skills</a>
                 <a href="#contact" className="hover:text-accent">Contact Me</a>

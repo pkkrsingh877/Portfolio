@@ -820,6 +820,11 @@ video {
   padding-right: 3rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .pr-4 {
   padding-right: 1rem;
 }
@@ -949,6 +954,10 @@ body {
     padding: 3rem;
   }
 
+  .md\:p-8 {
+    padding: 2rem;
+  }
+
   .md\:px-24 {
     padding-left: 6rem;
     padding-right: 6rem;
@@ -982,6 +991,10 @@ body {
 
   .lg\:p-36 {
     padding: 9rem;
+  }
+
+  .lg\:p-12 {
+    padding: 3rem;
   }
 
   .lg\:px-36 {
