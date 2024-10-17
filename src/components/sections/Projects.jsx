@@ -2,7 +2,7 @@ const Projects = () => {
     return (
         <section className="flex flex-col p-4" id="projects">
             <h1 className="font-semibold text-larger text-center p-4">Projects</h1>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="w-full border-2 border-solid border-secondary rounded-lg">
                     <img src="./images/projects/Mernstackblogs.png" alt="Mernstackblogs Image" className=" p-4" />
                     <h3 className="text-large font-normal px-4">Mernstackblogs</h3>
